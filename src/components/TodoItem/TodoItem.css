@@ -1,0 +1,49 @@
+.todoItem {
+    background-color: #ffad4a;
+    width: 500px;
+    min-height: 80px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, .2);
+}
+
+.todoItem__text {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.todoItem__status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.todoItem__delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.todoItem__delete:hover {
+    background-color: #de8b27;
+}
+
+.todoItem__delete img {
+    width: 50%;
+}
